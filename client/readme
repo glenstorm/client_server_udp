@@ -1,0 +1,4 @@
+RUN
+run.sh - build and run with test
+
+requiments: ninja-build, cmake (ccache optional)
