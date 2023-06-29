@@ -8,6 +8,7 @@ class PuzzleFile
 public:
 	PuzzleFile()
 		:chunkCount_(0)
+		,fileSizeInChunks_(0)
 		,crc_(0){}
 
 	void setChunkCount( size_t fileSizeInChunks )
